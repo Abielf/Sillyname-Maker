@@ -10,7 +10,7 @@ class Generator extends React.Component{
         super(props);
         this.state = {
             names: nameBank,
-            nameShown: "Spin the wheel, Make a name!"
+            nameShown: "This only appears on load of application"
         };
     }
     randClick(){
